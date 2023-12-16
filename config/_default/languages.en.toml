@@ -15,7 +15,7 @@ copyright = "© 2024 GOST.PLUS"
 [author]
   name = "GOST.PLUS"
   image = "img/profile.png"
-  headline = "Secure Sharing, Easy Access"
+  headline = "Secure Sharing, Easy Access."
   # bio = "An anonymous public reverse proxy tunnel"
   links = [
   #   { email = "mailto:hello@your_domain.com" },

@@ -2,7 +2,7 @@
 title: "QUICKSTART"
 ---
 
-## Download GUI Client
+## Installation
 
 Download the latest GUI client from [github release](https://github.com/go-gost/gost-plus/releases) page .
 

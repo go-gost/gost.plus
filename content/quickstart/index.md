@@ -12,24 +12,24 @@ Download the latest GUI client from [github release](https://github.com/go-gost/
 
 Expose local files to the public network.
 
-{{< youtube N9M-JbyneD8 >}}
+{{< youtube xGP_wsGaIZo >}}
 
 ### HTTP Tunnel
 
 Expose local HTTP service to the public network.
 
-{{< youtube -knGItySwUE >}}
+{{< youtube BaveaWW4q9c >}}
 
 ### TCP Tunnel
 
 Expose local TCP service to the public network.
 
-{{< youtube kiR1yghX7Rs >}}
+{{< youtube 2yWkfyZGiRw >}}
 
 ### UDP Tunnel
 
 Expose local UDP service to the public network.
 
-{{< youtube D4rGeYpmQGk >}}
+{{< youtube zASyi_oYy2g >}}
 
 

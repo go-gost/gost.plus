@@ -38,7 +38,7 @@ jobs:
         # Set output parameters.
         echo "tags=${TAGS}" >> $GITHUB_OUTPUT
         echo "docker_image=${DOCKER_IMAGE}" >> $GITHUB_OUTPUT
-        echo "docker_platforms=linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64/v8,linux/s390x,linux/riscv64" >> $GITHUB_OUTPUT
+        echo "docker_platforms=linux/386,linux/amd64,linux/arm/v7,linux/arm64" >> $GITHUB_OUTPUT
 
     - name: Environment
       run: |
@@ -52,7 +52,6 @@ jobs:
       uses: docker/setup-qemu-action@v3
 
     - name: Set up Docker Buildx
-      id: buildx
       uses: docker/setup-buildx-action@v3
 
     - name: Docker Login
@@ -65,6 +64,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v2
       with:
-        platforms: ${{ steps.buildx.outputs.platforms }}
+        platforms: ${{ steps.prepare.outputs.docker_platforms }}
         push: true
         tags: ${{ steps.prepare.outputs.tags }}

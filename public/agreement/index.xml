@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agreements on GOST.PLUS</title>
+    <link>https://gost.plus/agreement/</link>
+    <description>Recent content in Agreements on GOST.PLUS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 GOST.PLUS</copyright>
+    <atom:link href="https://gost.plus/agreement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://gost.plus/agreement/privacy_policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gost.plus/agreement/privacy_policy/</guid>
+      <description>Privacy Policy #Last updated: May 14, 2024</description>
+    </item>
+  </channel>
+</rss>
